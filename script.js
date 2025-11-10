@@ -1,3 +1,4 @@
+console.log("Script loaded!");
 document.addEventListener('DOMContentLoaded', function() {
     const form = document.getElementById('dietForm');
     const resultBox = document.getElementById('resultBox');
@@ -276,4 +277,5 @@ form.addEventListener("submit", function (e) {
         });
     });
 });
+
 
